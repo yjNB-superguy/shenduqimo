@@ -119,13 +119,13 @@ uploaded_file = st.file_uploader("上传一个图像", type=["png", "jpg", "jpeg
 if not uploaded_file:
     st.warning("请上传一张图像。")
     st.stop()
+learn_inf = load_learner("export.pkl")
 if uploaded_file is not None:
     # Display the image
     image = uploaded_file
     st.image(image, caption="Uploaded Image", use_column_width=True)
-
     # Get the predicted label
-    pred, pred_idx, probs = "export.pkl".predict(image)
+    pred, pred_idx, probs = learn_inf.predict(image)
     st.write(f"Prediction: {pred}; Probability: {probs[pred_idx]:.04f}")
 st.image(uploaded_file, channels="BGR")
 CONTENT = Image.open(uploaded_file)
