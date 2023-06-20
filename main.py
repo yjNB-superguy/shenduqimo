@@ -11,6 +11,25 @@ from PIL import Image, ImageEnhance
 import keras
 from fastai.vision.all import *
 
+path = os.path.dirname(os.path.abspath(__file__))
+model_path = os.path.join(path, "export.pkl")
+
+# Load the model
+learn_inf = load_learner(model_path)
+uploaded_file = st.file_uploader("上传一个图像", type=["png", "jpg", "jpeg"])
+if not uploaded_file:
+    st.warning("请上传一张图像。")
+    st.stop()
+# If the user has uploaded an image
+if uploaded_file is not None:
+    # Display the image
+    image = PILImage.create(uploaded_file)
+    st.image(image, caption="Uploaded Image", use_column_width=True)
+
+    # Get the predicted label
+    pred, pred_idx, probs = learn_inf.predict(image)
+    st.write(f"Prediction: {pred}; Probability: {probs[pred_idx]:.04f}")
+
 
 # 创建模型
 model = NeuralStyleTransferModel()
