@@ -134,12 +134,12 @@ if not os.path.exists(settings.OUTPUT_DIR):
 st.title("图像编辑器")
 
 # 上传一个图像
-uploaded_file = st.file_uploader("上传一个图像", type=["png", "jpg", "jpeg"])
-if not uploaded_file:
+uploaded_file1 = st.file_uploader("上传一个图像", type=["png", "jpg", "jpeg"])
+if not uploaded_file1:
     st.warning("请上传一张图像。")
     st.stop()
-st.image(uploaded_file, channels="BGR")
-CONTENT = Image.open(uploaded_file)
+st.image(uploaded_file1, channels="BGR")
+CONTENT = Image.open(uploaded_file1)
 CONTENT.save('CONTENT.jpeg')
 # 风格转换
 style = st.sidebar.selectbox("风格转换", ["原图", "梵高"])
