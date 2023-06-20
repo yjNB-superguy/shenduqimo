@@ -33,7 +33,7 @@ if uploaded_file1 is not None:
 
 # 创建模型
 model = NeuralStyleTransferModel()
-st.set_page_config(page_title="图像编辑器", page_icon=":eyeglasses:")
+
 
 def _compute_content_loss(noise_features, target_features):
     """
