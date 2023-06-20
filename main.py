@@ -9,6 +9,9 @@ import utils
 from PIL import Image, ImageOps, ImageFilter, ImageDraw, ImageFont
 from PIL import Image, ImageEnhance
 import keras
+import pathlib
+temp=pathlib.PosixPath
+pathlib.PosixPath=pathlib.WindowsPath
 
 # 创建模型
 model = NeuralStyleTransferModel()
