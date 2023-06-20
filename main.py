@@ -10,7 +10,7 @@ from PIL import Image, ImageOps, ImageFilter, ImageDraw, ImageFont
 from PIL import Image, ImageEnhance
 import keras
 from fastai.vision.all import *
-st.set_page_config(page_title="图像编辑器", page_icon=":eyeglasses:")
+
 path = os.path.dirname(os.path.abspath(__file__))
 model_path = os.path.join(path, "export.pkl")
 
