@@ -119,7 +119,9 @@ uploaded_file = st.file_uploader("上传一个图像", type=["png", "jpg", "jpeg
 if not uploaded_file:
     st.warning("请上传一张图像。")
     st.stop()
-learn_inf = load_learner(export.pkl)
+path = os.path.dirname(os.path.abspath(__file__))
+model_path = os.path.join(path, "export.pkl")
+learn_inf = load_learner(model_path)
 if uploaded_file is not None:
     # Display the image
     image = uploaded_file
