@@ -12,3 +12,4 @@ tensorflow==2.7.0
 streamlit==1.13.0
 tqdm
 fastai
+pil
