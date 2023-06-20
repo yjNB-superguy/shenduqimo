@@ -16,14 +16,14 @@ model_path = os.path.join(path, "export.pkl")
 
 # Load the model
 learn_inf = load_learner(model_path)
-uploaded_file = st.file_uploader("上传一个图像", type=["png", "jpg", "jpeg"])
-if not uploaded_file:
+uploaded_file1 = st.file_uploader("上传一个图像", type=["png", "jpg", "jpeg"])
+if not uploaded_file1:
     st.warning("请上传一张图像。")
     st.stop()
 # If the user has uploaded an image
-if uploaded_file is not None:
+if uploaded_file1 is not None:
     # Display the image
-    image = PILImage.create(uploaded_file)
+    image = PILImage.create(uploaded_file1)
     st.image(image, caption="Uploaded Image", use_column_width=True)
 
     # Get the predicted label
@@ -33,7 +33,7 @@ if uploaded_file is not None:
 
 # 创建模型
 model = NeuralStyleTransferModel()
-
+st.set_page_config(page_title="图像编辑器", page_icon=":eyeglasses:")
 
 def _compute_content_loss(noise_features, target_features):
     """
