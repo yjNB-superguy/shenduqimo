@@ -1,0 +1,193 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="CssUnknownProperty" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myCustomPropertiesEnabled" value="true" />
+      <option name="myIgnoreVendorSpecificProperties" value="false" />
+      <option name="myCustomPropertiesList">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="filter" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="58">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="el-button" />
+            <item index="7" class="java.lang.String" itemvalue="el-input" />
+            <item index="8" class="java.lang.String" itemvalue="el-avatar" />
+            <item index="9" class="java.lang.String" itemvalue="el-col" />
+            <item index="10" class="java.lang.String" itemvalue="el-dropdown" />
+            <item index="11" class="java.lang.String" itemvalue="el-dropdown-menu" />
+            <item index="12" class="java.lang.String" itemvalue="el-dropdown-item" />
+            <item index="13" class="java.lang.String" itemvalue="el-breadcrumb" />
+            <item index="14" class="java.lang.String" itemvalue="el-breadcrumb-item" />
+            <item index="15" class="java.lang.String" itemvalue="el-menu" />
+            <item index="16" class="java.lang.String" itemvalue="el-menu-item" />
+            <item index="17" class="java.lang.String" itemvalue="el-upload" />
+            <item index="18" class="java.lang.String" itemvalue="el-image" />
+            <item index="19" class="java.lang.String" itemvalue="el-dialog" />
+            <item index="20" class="java.lang.String" itemvalue="el-form" />
+            <item index="21" class="java.lang.String" itemvalue="el-form-item" />
+            <item index="22" class="java.lang.String" itemvalue="el-radio" />
+            <item index="23" class="java.lang.String" itemvalue="el-radio-group" />
+            <item index="24" class="java.lang.String" itemvalue="el-row" />
+            <item index="25" class="java.lang.String" itemvalue="el-progress" />
+            <item index="26" class="java.lang.String" itemvalue="el-tag" />
+            <item index="27" class="java.lang.String" itemvalue="el-submenu" />
+            <item index="28" class="java.lang.String" itemvalue="el-menu-item-group" />
+            <item index="29" class="java.lang.String" itemvalue="el-select" />
+            <item index="30" class="java.lang.String" itemvalue="el-option" />
+            <item index="31" class="java.lang.String" itemvalue="el-date-picker" />
+            <item index="32" class="java.lang.String" itemvalue="el-empty" />
+            <item index="33" class="java.lang.String" itemvalue="el-tabs" />
+            <item index="34" class="java.lang.String" itemvalue="el-tab-pane" />
+            <item index="35" class="java.lang.String" itemvalue="el-descriptions" />
+            <item index="36" class="java.lang.String" itemvalue="el-descriptions-item" />
+            <item index="37" class="java.lang.String" itemvalue="el-table" />
+            <item index="38" class="java.lang.String" itemvalue="el-table-column" />
+            <item index="39" class="java.lang.String" itemvalue="el-input-number" />
+            <item index="40" class="java.lang.String" itemvalue="el-page-header" />
+            <item index="41" class="java.lang.String" itemvalue="el-collapse" />
+            <item index="42" class="java.lang.String" itemvalue="el-collapse-item" />
+            <item index="43" class="java.lang.String" itemvalue="el-slider" />
+            <item index="44" class="java.lang.String" itemvalue="el-checkbox" />
+            <item index="45" class="java.lang.String" itemvalue="el-checkbox-group" />
+            <item index="46" class="java.lang.String" itemvalue="el-card" />
+            <item index="47" class="java.lang.String" itemvalue="el-pagination" />
+            <item index="48" class="java.lang.String" itemvalue="el-footer" />
+            <item index="49" class="java.lang.String" itemvalue="el-rate" />
+            <item index="50" class="java.lang.String" itemvalue="el-cascader" />
+            <item index="51" class="java.lang.String" itemvalue="el-tree" />
+            <item index="52" class="java.lang.String" itemvalue="el-radio-button" />
+            <item index="53" class="java.lang.String" itemvalue="el-tooltip" />
+            <item index="54" class="java.lang.String" itemvalue="el-time-picker" />
+            <item index="55" class="java.lang.String" itemvalue="el-switch" />
+            <item index="56" class="java.lang.String" itemvalue="el-checkbox-button" />
+            <item index="57" class="java.lang.String" itemvalue="el-drawer" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="86">
+            <item index="0" class="java.lang.String" itemvalue="sklearn" />
+            <item index="1" class="java.lang.String" itemvalue="opencv-python-headless" />
+            <item index="2" class="java.lang.String" itemvalue="Scrapy" />
+            <item index="3" class="java.lang.String" itemvalue="streamlit-option-menu" />
+            <item index="4" class="java.lang.String" itemvalue="pandas" />
+            <item index="5" class="java.lang.String" itemvalue="jieba" />
+            <item index="6" class="java.lang.String" itemvalue="pymysql" />
+            <item index="7" class="java.lang.String" itemvalue="streamlit" />
+            <item index="8" class="java.lang.String" itemvalue="python_dateutil" />
+            <item index="9" class="java.lang.String" itemvalue="pyecharts" />
+            <item index="10" class="java.lang.String" itemvalue="snownlp" />
+            <item index="11" class="java.lang.String" itemvalue="html5lib" />
+            <item index="12" class="java.lang.String" itemvalue="joblib" />
+            <item index="13" class="java.lang.String" itemvalue="threadpoolctl" />
+            <item index="14" class="java.lang.String" itemvalue="scikit-learn" />
+            <item index="15" class="java.lang.String" itemvalue="testpath" />
+            <item index="16" class="java.lang.String" itemvalue="nltk" />
+            <item index="17" class="java.lang.String" itemvalue="python-dateutil" />
+            <item index="18" class="java.lang.String" itemvalue="defusedxml" />
+            <item index="19" class="java.lang.String" itemvalue="QtPy" />
+            <item index="20" class="java.lang.String" itemvalue="MarkupSafe" />
+            <item index="21" class="java.lang.String" itemvalue="ipython-genutils" />
+            <item index="22" class="java.lang.String" itemvalue="pyzmq" />
+            <item index="23" class="java.lang.String" itemvalue="certifi" />
+            <item index="24" class="java.lang.String" itemvalue="lxml" />
+            <item index="25" class="java.lang.String" itemvalue="soupsieve" />
+            <item index="26" class="java.lang.String" itemvalue="entrypoints" />
+            <item index="27" class="java.lang.String" itemvalue="pyparsing" />
+            <item index="28" class="java.lang.String" itemvalue="beautifulsoup4" />
+            <item index="29" class="java.lang.String" itemvalue="terminado" />
+            <item index="30" class="java.lang.String" itemvalue="Werkzeug" />
+            <item index="31" class="java.lang.String" itemvalue="extruct" />
+            <item index="32" class="java.lang.String" itemvalue="rdflib" />
+            <item index="33" class="java.lang.String" itemvalue="gunicorn" />
+            <item index="34" class="java.lang.String" itemvalue="mf2py" />
+            <item index="35" class="java.lang.String" itemvalue="Flask-Jsonpify" />
+            <item index="36" class="java.lang.String" itemvalue="regex" />
+            <item index="37" class="java.lang.String" itemvalue="scikit-optimize" />
+            <item index="38" class="java.lang.String" itemvalue="widgetsnbextension" />
+            <item index="39" class="java.lang.String" itemvalue="idna" />
+            <item index="40" class="java.lang.String" itemvalue="jstyleson" />
+            <item index="41" class="java.lang.String" itemvalue="decorator" />
+            <item index="42" class="java.lang.String" itemvalue="jupyter-core" />
+            <item index="43" class="java.lang.String" itemvalue="language-tags" />
+            <item index="44" class="java.lang.String" itemvalue="isodate" />
+            <item index="45" class="java.lang.String" itemvalue="recipe-scrapers" />
+            <item index="46" class="java.lang.String" itemvalue="numpy" />
+            <item index="47" class="java.lang.String" itemvalue="requests" />
+            <item index="48" class="java.lang.String" itemvalue="w3lib" />
+            <item index="49" class="java.lang.String" itemvalue="Jinja2" />
+            <item index="50" class="java.lang.String" itemvalue="jupyter" />
+            <item index="51" class="java.lang.String" itemvalue="selenium" />
+            <item index="52" class="java.lang.String" itemvalue="html-text" />
+            <item index="53" class="java.lang.String" itemvalue="tldextract" />
+            <item index="54" class="java.lang.String" itemvalue="urllib3" />
+            <item index="55" class="java.lang.String" itemvalue="itsdangerous" />
+            <item index="56" class="java.lang.String" itemvalue="Flask" />
+            <item index="57" class="java.lang.String" itemvalue="scipy" />
+            <item index="58" class="java.lang.String" itemvalue="rdflib-jsonld" />
+            <item index="59" class="java.lang.String" itemvalue="tornado" />
+            <item index="60" class="java.lang.String" itemvalue="parso" />
+            <item index="61" class="java.lang.String" itemvalue="Send2Trash" />
+            <item index="62" class="java.lang.String" itemvalue="packaging" />
+            <item index="63" class="java.lang.String" itemvalue="chromedriver" />
+            <item index="64" class="java.lang.String" itemvalue="prometheus-client" />
+            <item index="65" class="java.lang.String" itemvalue="chardet" />
+            <item index="66" class="java.lang.String" itemvalue="mistune" />
+            <item index="67" class="java.lang.String" itemvalue="tqdm" />
+            <item index="68" class="java.lang.String" itemvalue="pyaml" />
+            <item index="69" class="java.lang.String" itemvalue="Unidecode" />
+            <item index="70" class="java.lang.String" itemvalue="pytz" />
+            <item index="71" class="java.lang.String" itemvalue="webencodings" />
+            <item index="72" class="java.lang.String" itemvalue="h5py" />
+            <item index="73" class="java.lang.String" itemvalue="matplotlib" />
+            <item index="74" class="java.lang.String" itemvalue="torch" />
+            <item index="75" class="java.lang.String" itemvalue="torchvision" />
+            <item index="76" class="java.lang.String" itemvalue="opencv_python" />
+            <item index="77" class="java.lang.String" itemvalue="Pillow" />
+            <item index="78" class="java.lang.String" itemvalue="seaborn" />
+            <item index="79" class="java.lang.String" itemvalue="tensorflow" />
+            <item index="80" class="java.lang.String" itemvalue="opencv-python" />
+            <item index="81" class="java.lang.String" itemvalue="keras" />
+            <item index="82" class="java.lang.String" itemvalue="imgaug" />
+            <item index="83" class="java.lang.String" itemvalue="scikit-image" />
+            <item index="84" class="java.lang.String" itemvalue="cython" />
+            <item index="85" class="java.lang.String" itemvalue="IPython" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="list.__sub__" />
+          <option value="object.insert" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
